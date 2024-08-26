@@ -19,10 +19,10 @@ object Spark04_RDD_Operator_Action_CountByValue {
       * countByValue:统计元素出现的次数
       */
 
-//    val rdd = sc.makeRDD(List(1,2,3,4))
-//    val value:Map[Int,Long] = rdd.countByValue()
-//    println(value)
-
+    val rdd1 = sc.makeRDD(List(1,2,3,4,3))
+    val value1:Map[Int,Long] = rdd1.countByValue()
+    println(value1)
+    //统计key出现的次数
     val rdd = sc.makeRDD(List(
   ("a",1),("a",2),("a",3)
 ))

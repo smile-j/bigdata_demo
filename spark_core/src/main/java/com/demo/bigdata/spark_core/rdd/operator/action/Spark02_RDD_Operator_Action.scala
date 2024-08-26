@@ -24,12 +24,14 @@ object Spark02_RDD_Operator_Action {
     val array:Array[Int] = rdd.collect()
     println(array.mkString(","))
 
-
+    //统计个数
     val count = rdd.count()
     println(count)
 
+    //获取第一个元素
     val firtItem:Int = rdd.first()
 
+    //取前俩个
     val newArray:Array[Int] = rdd.take(2)
 
     //排序后取前n个
