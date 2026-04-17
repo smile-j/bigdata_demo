@@ -24,6 +24,9 @@
         <module>spark_core</module>
         <module>spark_sql</module>
         <module>spark_streaming</module>
+        <module>flink_java</module>
+        <module>flink_scala</module>
+        <module>spark_java</module>
     </modules>
 
 

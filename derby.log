@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Aug 30 16:44:56 CST 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0191-a275-8470-00000f933300 
+on database directory D:\project\github\bigdata_demo\bigdata_demo\metastore_db with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/D:/soft/mvn/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_332-b09
+user.dir=D:\project\github\bigdata_demo\bigdata_demo
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
